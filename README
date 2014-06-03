@@ -4,4 +4,14 @@ The documents include:
   * set up and control mpd player
   * python scripts
   * shell scripts
-  * schematics
+
+Changes 06-03-2014, bob murphy:
+  * add rpi_boombox_v2.py
+    - added pause/play to remote
+    - changed remote "back" button from redisplay "Now Playing" to toggle LEDs
+    - added rotary encoder to alter volume
+  * add rpi_boombox_v2_init.sh
+  * add arduino sketch for Neopixels and Sure LED Matrix:
+    boombox_music_visualizer.ino
+
+<CorelDraw File for Frame to be added!>
