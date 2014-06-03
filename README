@@ -10,6 +10,7 @@ Changes 06-03-2014, bob murphy:
     - added pause/play to remote
     - changed remote "back" button from redisplay "Now Playing" to toggle LEDs
     - added rotary encoder to alter volume
+  * add rotary_class.py to control rotary encoder
   * add rpi_boombox_v2_init.sh
   * add arduino sketch for Neopixels and Sure LED Matrix:
     boombox_music_visualizer.ino
