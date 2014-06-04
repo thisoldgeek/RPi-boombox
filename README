@@ -1,9 +1,12 @@
 This git holds documents for creating a raspberry pi-based boombox.
 The boombox uses a VFD for display and an IR remote control for start/stop, change channel, volume +/-, etc.
 The documents include:
-  * set up and control mpd player
+  * See the build blog at:
+    https://tinyurl.com/mee9dmk
   * python scripts
   * shell scripts
+  * arduino sketch
+  * picture guide to remote control functions
 
 Changes 06-03-2014, bob murphy:
   * add rpi_boombox_v2.py
