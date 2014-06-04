@@ -15,4 +15,7 @@ Changes 06-03-2014, bob murphy:
   * add arduino sketch for Neopixels and Sure LED Matrix:
     boombox_music_visualizer.ino
 
+Changes 06-04-2014, bob murphy:
+  * add boombox_frame_v6_18x24_horizontal.cdr CorelDraw file for laser-cut enclosure
+
 <CorelDraw File for Frame to be added!>
