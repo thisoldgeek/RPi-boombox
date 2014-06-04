@@ -1,20 +1,25 @@
-This git holds documents for creating a raspberry pi-based boombox.
-The boombox uses a VFD for display and an IR remote control for start/stop, change channel, volume +/-, etc.
+This git holds documents for creating a raspberry pi-based boombox. 
+There are two versions of the boombox:
+  * original (mini boombox) with VFD and IR Remote, no version suffix
+  * enhanced version (adding LED Music visualizations) denoted by "_v2" suffix
 The documents include:
-  * See the build blog at:
-    https://tinyurl.com/mee9dmk
   * python scripts
   * shell scripts
   * arduino sketch
   * picture guide to remote control functions
   * CorelDraw document for cutting enclosure with laser
 
+For further information and installation instructions:
+  * See the build blog at:
+    https://tinyurl.com/mee9dmk
+
 Changes 06-03-2014, bob murphy:
   * add rpi_boombox_v2.py
     - added pause/play to remote
     - changed remote "back" button from redisplay "Now Playing" to toggle LEDs
     - added rotary encoder to alter volume
-  * add rotary_class.py to control rotary encoder
+    - added GPIO switch to toggle Music LEDs on/off
+  * add rotary_class.py to control rotary encoder for manual volume
   * add rpi_boombox_v2_init.sh
   * add arduino sketch for Neopixels and Sure LED Matrix:
     boombox_music_visualizer.ino
@@ -23,5 +28,5 @@ Changes 06-03-2014, bob murphy:
 
 Changes 06-04-2014, bob murphy:
   * add boombox_frame_v6_18x24_horizontal.cdr CorelDraw file for laser-cut enclosure
-  * add Remote Guide for original (mini) boom box
-  * add Remote Guide for boombox V2
+  * add Remote Guide for original (mini) boom box (.png)
+  * add Remote Guide for boombox V2 (.png)
