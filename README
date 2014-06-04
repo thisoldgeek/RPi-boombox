@@ -14,6 +14,8 @@ Changes 06-03-2014, bob murphy:
   * add rpi_boombox_v2_init.sh
   * add arduino sketch for Neopixels and Sure LED Matrix:
     boombox_music_visualizer.ino
+    NOTE: sketch requires library from another repository: 
+          https://github.com/thiseldo/HT1632_LedMatrix
 
 Changes 06-04-2014, bob murphy:
   * add boombox_frame_v6_18x24_horizontal.cdr CorelDraw file for laser-cut enclosure
